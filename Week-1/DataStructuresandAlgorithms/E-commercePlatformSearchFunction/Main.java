@@ -1,25 +1,61 @@
-public class Main {
+public class Product {
+    int productId;
+    String productName;
+    String category;
+
+    public Product(int productId, String productName, String category) {
+        this.productId = productId;
+        this.productName = productName;
+        this.category = category;
+    }
+}
+
+class Main {
+    public static int linearSearch(Product[] products, int targetId) {
+        for (int i = 0; i < products.length; i++) {
+            if (products[i].productId == targetId) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static int binarySearch(Product[] products, int targetId) {
+        int low = 0, high = products.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (products[mid].productId == targetId) {
+                return mid;
+            } else if (products[mid].productId < targetId) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return -1;
+    }
+
     public static void main(String[] args) {
+        // Sorted array for binary search
         Product[] products = {
-            new Product(3, "Laptop", "Electronics"),
-            new Product(1, "Shirt", "Apparel"),
-            new Product(5, "Phone", "Electronics"),
-            new Product(2, "Book", "Stationery")
+            new Product(101, "Laptop", "Electronics"),
+            new Product(150, "Phone", "Accessories"),
+            new Product(205, "Shoes", "Footwear"),
+            new Product(300, "Watch", "Electronics")
         };
 
-        // Linear Search
-        Product foundLinear = SearchUtils.linearSearch(products, 5);
-        if (foundLinear != null)
-            System.out.println("Linear Search: Found " + foundLinear.productName);
-        else
-            System.out.println("Linear Search: Product not found");
+        int targetId = 150;
 
-        // Binary Search
-        SearchUtils.sortProductsById(products);
-        Product foundBinary = SearchUtils.binarySearch(products, 5);
-        if (foundBinary != null)
-            System.out.println("Binary Search: Found " + foundBinary.productName);
+        int linIndex = linearSearch(products, targetId);
+        if (linIndex != -1)
+            System.out.println("Linear Search: Found " + products[linIndex].productName);
         else
-            System.out.println("Binary Search: Product not found");
+            System.out.println("Linear Search: Not found");
+
+        int binIndex = binarySearch(products, targetId);
+        if (binIndex != -1)
+            System.out.println("Binary Search: Found " + products[binIndex].productName);
+        else
+            System.out.println("Binary Search: Not found");
     }
 }

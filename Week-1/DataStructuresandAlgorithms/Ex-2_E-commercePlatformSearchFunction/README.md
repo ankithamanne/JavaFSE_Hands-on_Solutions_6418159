@@ -1,8 +1,8 @@
 E-commerce Platform Search Function Documentation
 
-1️⃣ Understand Asymptotic Notation:
+1️. Understand Asymptotic Notation:
 
---> What is Big O Notation?
+a) What is Big O Notation?
 
 Big O notation describes how the time or space requirements of an algorithm grow relative to the input size `n` as `n` becomes large.  
 It helps:
@@ -17,7 +17,7 @@ Example complexities:
 - O(n^2): Quadratic time (performance degrades quickly with larger inputs)
 
 
---> Best, Average, and Worst-Case Scenarios in Search:
+b) Best, Average, and Worst-Case Scenarios in Search:
 
 - Best Case: The condition where the target is found at the most favorable position (e.g., first position in linear search, middle in binary search).
 - Average Case: The expected performance over many different inputs (e.g., target somewhere in the middle or random position).
@@ -29,9 +29,9 @@ Example complexities:
 | Binary Search     | O(1)      | O(log n)     | O(log n)   |
 
 
-4️⃣ Analysis:
+4️. Analysis:
 
-1. Comparation of time complexity of linear and binary search algorithms:
+a) Comparation of time complexity of linear and binary search algorithms:
 
 | Aspect                       | Linear Search                            | Binary Search                            |
 |------------------------------|------------------------------------------|------------------------------------------|
@@ -54,7 +54,7 @@ Binary Search:
 - Average/worst case: Requires about log₂(n) comparisons (O(log n)).
 
 
-2️. Which Algorithm is More Suitable and Why?
+b) Which Algorithm is More Suitable and Why?
 
 For an e-commerce platform:
 *Binary search is more suitable* when the product data is sorted by productId, name, or other searchable attributes.  

@@ -36,7 +36,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        // Sorted array for binary search
+        
         Product[] products = {
             new Product(101, "Laptop", "Electronics"),
             new Product(150, "Phone", "Accessories"),

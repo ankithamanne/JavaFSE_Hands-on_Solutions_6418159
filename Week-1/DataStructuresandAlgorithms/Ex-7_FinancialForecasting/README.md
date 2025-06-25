@@ -1,15 +1,15 @@
 Financial Forecasting Documentation
 
-1️⃣ Understand Recursive Algorithms:
+1️. Understand Recursive Algorithms:
 
---> What is recursion?
+a) What is recursion?
 Recursion is a programming technique where a function calls itself to solve smaller sub-problems until it reaches a base case.  
 
 It is particularly useful when:
 - The problem has a natural repetitive structure.
 - The solution for a large problem depends on solutions to smaller instances of the same problem.
 
---> How recursion simplifies financial forecasting:
+b) How recursion simplifies financial forecasting:
 Recursion simplifies financial forecasting by breaking down the overall prediction into smaller, manageable steps where each year’s value depends directly on the value of the previous year.
 
 In forecasting, the formula typically follows:
@@ -22,9 +22,9 @@ This naturally fits a recursive pattern because:
 - The recursion ends when the base case is reached, and values are built back up.
 
 
-4️⃣ Analysis:
+4️. Analysis:
 
---> Time Complexity of the Recursive Algorithm:
+a) Time Complexity of the Recursive Algorithm:
 
 Time Complexity:  
 
@@ -37,7 +37,7 @@ The space complexity is **O(n)**, where `n` is the number of years.
 This could lead to high memory usage if `n` is very large.
 
 
---> How to Optimize the Recursive Solution to Avoid Excessive Computation:
+b) How to Optimize the Recursive Solution to Avoid Excessive Computation:
 
 Although the recursive solution does not perform repeated calculations (each step depends only on the previous one), it uses stack space for each year, which is unnecessary for this type of problem.  
 

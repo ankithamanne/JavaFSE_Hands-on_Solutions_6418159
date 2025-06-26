@@ -14,3 +14,6 @@ CREATE TABLE loans (
   FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
 
+
+
+

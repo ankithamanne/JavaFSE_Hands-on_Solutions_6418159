@@ -46,7 +46,7 @@ END;
 EXEC ProcessMonthlyInterest;
 
 --To view OUTPUT
-SELECT * FROM ACCOUNTS
+SELECT * FROM ACCOUNTS;
 
 
 //5. Scenario 2: The bank wants to implement a bonus scheme for employees based on their performance.
@@ -66,11 +66,10 @@ END;
 EXEC UpdateEmployeeBonus(10, 10);  
 
 --To view OUTPUT
-SELECT * FROM EMPLOYEES
+SELECT * FROM EMPLOYEES;
 
 
-//6. Output_Scenario-2.
-Scenario 3: Customers should be able to transfer funds between their accounts.
+//6. Scenario 3: Customers should be able to transfer funds between their accounts.
 
 CREATE OR REPLACE PROCEDURE TransferFunds(
     from_acc IN NUMBER,
@@ -94,7 +93,7 @@ END;
 EXEC TransferFunds(101, 103, 500);
 
 --To view OUTPUT
-SELECT * FROM ACCOUNTS
+SELECT * FROM ACCOUNTS;
 
 
 

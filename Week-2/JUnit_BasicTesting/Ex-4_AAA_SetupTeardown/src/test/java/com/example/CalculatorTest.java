@@ -1,38 +1,33 @@
-package test.java.com.example;
-
-import org.junit.Before;
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CalculatorTest {
 
-    private Calculator calc;
+    private Calculator calculator;
 
-    // Setup Method: Runs before each test
     @Before
     public void setUp() {
-        calc = new Calculator();
-        System.out.println("Setup: Calculator initialized.");
+        calculator = new Calculator();
+        System.out.println("Setup done");
     }
 
-    // Teardown Method: Runs after each test
     @After
     public void tearDown() {
-        calc = null;
-        System.out.println("Teardown: Calculator cleaned up.");
+        calculator = null;
+        System.out.println("Teardown done");
     }
 
     @Test
-    public void testAdd() {
-        // Arrange
-        int a = 5;
-        int b = 7;
+    public void testAddition() {
+        int result = calculator.add(2, 3);
+        assertEquals(5, result);
+    }
 
-        // Act
-        int result = calc.add(a, b);
-
-        // Assert
-        assertEquals(12, result);
+    @Test
+    public void testSubtraction() {
+        int result = calculator.subtract(10, 4);
+        assertEquals(6, result);
     }
 }

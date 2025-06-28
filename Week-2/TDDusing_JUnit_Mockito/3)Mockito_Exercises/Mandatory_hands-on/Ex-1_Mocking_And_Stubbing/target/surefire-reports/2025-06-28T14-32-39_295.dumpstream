@@ -1,6 +1,0 @@
-# Created at 2025-06-28T14:32:39.936
-Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
-
-# Created at 2025-06-28T14:32:41.119
-OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-

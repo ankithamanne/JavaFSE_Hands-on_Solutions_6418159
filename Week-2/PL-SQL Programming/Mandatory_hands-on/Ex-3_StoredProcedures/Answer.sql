@@ -50,13 +50,11 @@ BEGIN
         END IF;
     END LOOP;
 
-    -- Deduct from source
     UPDATE Accounts
     SET Balance = Balance - amount,
         LastModified = SYSDATE
     WHERE AccountID = from_account;
 
-    -- Add to destination
     UPDATE Accounts
     SET Balance = Balance + amount,
         LastModified = SYSDATE

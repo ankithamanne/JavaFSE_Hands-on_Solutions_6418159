@@ -50,13 +50,19 @@ BEGIN
         END IF;
     END LOOP;
 
+<<<<<<< HEAD
     -- Deduct from source
+=======
+>>>>>>> 017f205a4d45a6135dfc0f9c3d54cd6ebdac017f
     UPDATE Accounts
     SET Balance = Balance - amount,
         LastModified = SYSDATE
     WHERE AccountID = from_account;
 
+<<<<<<< HEAD
     -- Add to destination
+=======
+>>>>>>> 017f205a4d45a6135dfc0f9c3d54cd6ebdac017f
     UPDATE Accounts
     SET Balance = Balance + amount,
         LastModified = SYSDATE

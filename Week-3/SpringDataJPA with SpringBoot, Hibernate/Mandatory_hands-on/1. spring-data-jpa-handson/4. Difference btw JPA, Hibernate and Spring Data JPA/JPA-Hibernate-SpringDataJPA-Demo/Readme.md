@@ -25,8 +25,7 @@ This document outlines the differences between **JPA**, **Hibernate**, and **Spr
 - **Hibernate** is a widely used implementation of the JPA specification.
 - **Spring Data JPA** builds on JPA and Hibernate to offer powerful repository-based data access with minimal coding.
 
----
 
-> 📁 Location:  
+> Location:  
 > `SpringDataJPA_with_SpringBoot_Hibernate/1. spring-data-jpa-handson/4. Difference btw JPA, Hibernate and Spring Data JPA`
 

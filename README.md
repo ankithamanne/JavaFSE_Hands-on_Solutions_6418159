@@ -1,4 +1,4 @@
-# 💻 Digital Nurture 4.0 – Java Full Stack Engineer (Java FSE)
+# Digital Nurture 4.0 – Java Full Stack Engineer (Java FSE)
 
 This repository contains my hands-on solutions for the **Digital Nurture 4.0 Java Full Stack Engineer (Java FSE)** program offered by **Cognizant**.
 
@@ -14,14 +14,14 @@ Each hands-on problem focuses on practical scenarios involving:
 
 All exercises are completed as per Cognizant's official handbook, and terminal output screenshots are included as proof of successful execution.
 
-> 📂 This repository is intended for submission and review by Cognizant mentors and SMEs.
+> This repository is intended for submission and review by Cognizant mentors and SMEs.
 
-## 🧾 Author Details
+## Author Details
 
-- 👩‍💻 Name: Ankitha Manne  
-- 🎓 College: Gokaraju Rangaraju Institute of Engineering and Technology  
-- 📘 Program: B.Tech(CSE), 4th Year  
-- 🏢 Program: Cognizant Digital Nurture 4.0 – Java FSE  
-- 📂 Superset ID: `6418159`
+- Name: Ankitha Manne  
+- College: Gokaraju Rangaraju Institute of Engineering and Technology  
+- Program: B.Tech(CSE), 4th Year  
+- Program: Cognizant Digital Nurture 4.0 – Java FSE  
+- Superset ID: `6418159`
 
 > This repository is created solely for learning and evaluation as part of Cognizant's Java FSE skilling program.

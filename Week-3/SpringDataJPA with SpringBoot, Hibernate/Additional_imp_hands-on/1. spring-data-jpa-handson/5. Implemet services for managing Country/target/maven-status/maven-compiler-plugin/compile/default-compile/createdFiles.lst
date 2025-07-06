@@ -1,0 +1,5 @@
+com\example\springdatajpademo\entity\Country.class
+com\example\springdatajpademo\service\CountryService.class
+com\example\springdatajpademo\controller\CountryController.class
+com\example\springdatajpademo\repository\CountryRepository.class
+com\example\springdatajpademo\SpringDatajpaDemoApplication.class

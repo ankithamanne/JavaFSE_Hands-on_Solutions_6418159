@@ -9,7 +9,7 @@ public class LoanController {
 
     @GetMapping("/loans/{number}")
     public Loan getLoan(@PathVariable String number) {
-        return new Loan(number, "car", 550000, 4250, 13);
+        return new Loan(number, "car", 400000, 3258, 18);
     }
 
     class Loan {

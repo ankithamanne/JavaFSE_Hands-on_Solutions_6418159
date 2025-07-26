@@ -35,51 +35,19 @@ There are two primary types of React components:
 
 A class component is a more traditional way of creating React components using ES6 class syntax. It must include a `render()` method that returns JSX. Class components can manage their own state and respond to lifecycle events.
 
-Example:
-
-import React, { Component } from 'react';
-class Welcome extends Component {
-  render() {
-    return <h1>Hello from class component</h1>;
-  }
-}
-
 ---
 
 ### 5. Explain function component.
+
 A function component is a simpler way to create React components using a plain JavaScript function that returns JSX. They are ideal for presentational components, and with React Hooks, they can also handle state and side effects.
-
-Example:
-
-function Welcome() {
-  return <h1>Hello from function component</h1>;
-}
 
 ---
 
 ### 6. Define component constructor.
 The constructor is a special method used in class components to initialize the state and bind methods. It is the first method called when the component is created, and it receives props as an argument.
 
-Example:
-
-constructor(props) {
-  super(props);
-  this.state = {
-    message: 'Welcome'
-  };
-}
 
 ---
 
 ### 7. Define render() function.
 The render() function is required in every class component. It returns JSX, which determines what gets displayed on the screen. Whenever there is a change in state or props, the render() method is called again to update the UI.
-
-Example:
-
-render() {
-  return (
-    <div>
-      <h1>This content is rendered</h1>
-    </div>
-  );
-}

@@ -54,20 +54,20 @@ console.log(score); // 10
 
 ## 4️. Explain JavaScript const
 
-Used to declare constant values.
-Cannot be reassigned after declaration.
-Block-scoped like let.
+- Used to declare constant values.
+- Cannot be reassigned after declaration.
+- Block-scoped like let.
 
 ---
 
 ## 5. Explain ES6 class fundamentals
 
-ES6 introduces the class keyword for creating object blueprints.
-Supports constructors and methods.
+- ES6 introduces the class keyword for creating object blueprints.
+- Supports constructors and methods.
 
 ---
 
 ## 6.  Explain ES6 class inheritance
 
-extends is used to inherit properties and methods from another class.
-super() is used to call the constructor of the parent class.
+- extends is used to inherit properties and methods from another class.
+- super() is used to call the constructor of the parent class.

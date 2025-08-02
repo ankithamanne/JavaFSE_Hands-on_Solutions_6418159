@@ -1,6 +1,6 @@
 # 11. React JS-HOL
 
-## Objectives:
+# Objectives:
 
 ## 1. Explain React Events
 React events are JavaScript events wrapped in a cross-browser wrapper called **SyntheticEvent**. They behave similarly to native events but work identically across all browsers. React handles events like `onClick`, `onChange`, `onSubmit`, etc., using camelCase syntax and passes functions as event handlers.
@@ -19,7 +19,7 @@ A Synthetic Event is a React wrapper around the browser’s native event system.
 
 ## 4. Identify React Event Naming Convention
 
-React uses camelCase for event names instead of lowercase like HTML. For example:
-
+React uses camelCase for event names instead of lowercase like HTML.
+For example:
 HTML: <button onclick="doSomething()">Click</button>
 React: <button onClick={doSomething}>Click</button>

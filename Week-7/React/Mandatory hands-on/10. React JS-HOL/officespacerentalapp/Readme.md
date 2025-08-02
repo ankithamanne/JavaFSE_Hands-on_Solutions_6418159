@@ -1,6 +1,6 @@
-## 10. React JS-HOL
+# 10. React JS-HOL
 
-## OBJECTIVES:
+# OBJECTIVES:
 
 ## 1. Define JSX
 

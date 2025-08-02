@@ -1,0 +1,38 @@
+.complaint-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+.form-box {
+  text-align: left;
+}
+
+.heading {
+  text-align: center;
+  color: red;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.row label {
+  width: 100px; 
+}
+
+.row input,
+.row textarea {
+  flex: 1;
+  padding: 5px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}

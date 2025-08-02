@@ -1,6 +1,6 @@
 # 9. React JS-HOL
 
-## OBJECTIVES:
+# OBJECTIVES:
 
 
 ## 1. List the features of ES6

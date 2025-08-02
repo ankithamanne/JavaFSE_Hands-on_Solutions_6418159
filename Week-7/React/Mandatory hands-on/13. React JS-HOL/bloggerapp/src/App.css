@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.column {
+  width: 30%;
+  border-left: 4px solid green;
+  padding-left: 20px;
+}
+
+.column h2 {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.user-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.user-container h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-container img {
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
